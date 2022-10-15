@@ -70,8 +70,8 @@ public class LocomotionManager : MonoBehaviour
         float vertical = inputManager.MovementInput.y;
         float horizontal = inputManager.MovementInput.x;
 
-        movement = Vector3.forward * vertical;
-        movement = movement + Vector3.right * horizontal;
+        movement = Camera.main.transform.forward* vertical;
+        movement = movement + Camera.main.transform.right * horizontal;
 
         movement = movement.normalized * movementSpeed;
         movement.y = yMovement;
@@ -83,8 +83,8 @@ public class LocomotionManager : MonoBehaviour
     {
         Vector3 targetDirection = Vector3.zero;
 
-        targetDirection = Vector3.forward * inputManager.MovementInput.y;
-        targetDirection = targetDirection + Vector3.right * inputManager.MovementInput.x;
+        targetDirection = Camera.main.transform.forward * inputManager.MovementInput.y;
+        targetDirection = targetDirection + Camera.main.transform.right * inputManager.MovementInput.x;
 
 
         targetDirection.Normalize();

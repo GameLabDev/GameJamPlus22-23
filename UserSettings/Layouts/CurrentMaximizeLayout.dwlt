@@ -372,9 +372,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -8.106396, y: -4.1132994, z: -0.9235875}
+    m_Target: {x: -3.0470822, y: -3.668549, z: 8.629447}
     speed: 2
-    m_Value: {x: -0.33895, y: 1.6749544, z: 1.253}
+    m_Value: {x: -3.0470822, y: -3.668549, z: 8.629447}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -421,13 +421,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.13561365, y: 0.7017307, z: -0.13882448, w: -0.68550056}
+    m_Target: {x: -0.2365163, y: 0.6472763, z: -0.22193217, w: -0.68981177}
     speed: 2
-    m_Value: {x: -0.13561364, y: 0.70173067, z: -0.13882446, w: -0.6855005}
+    m_Value: {x: -0.23618305, y: 0.64831007, z: -0.22228663, w: -0.68883985}
   m_Size:
     m_Target: 8.929353
     speed: 2
-    m_Value: 0.40674618
+    m_Value: 8.929353
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -585,7 +585,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 77788
+  controlID: 78262
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -643,9 +643,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 6234fcffa234fcff5efaffff92faffff96faffff9afaffff9efaffffa6faffffaefaffffbafaffffbefafffff2faffff14fbfffff4ffffff
+      m_SelectedIDs: 90f7fbff
+      m_LastClickedID: -264304
+      m_ExpandedIDs: 6234fcff5efaffff92faffff96faffff9afaffff9efaffffa6faffffaefaffffbafaffffbefafffff2faffff14fbfffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -778,7 +778,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 273}
-    m_SelectedIDs: 
+    m_SelectedIDs: 90f7fbff
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff00000000cc510000ce510000d0510000d2510000d4510000d6510000d8510000da510000dc510000de510000e0510000e2510000fe950000
     m_RenameOverlay:
@@ -805,8 +805,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 90f7fbff
+    m_LastClickedInstanceID: -264304
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
